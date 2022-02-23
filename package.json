@@ -1,0 +1,26 @@
+{
+  "name": "curriculum-vitae",
+  "version": "1.0.0",
+  "description": "Personal curriculum vitae",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "generate-cv": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/killianperea/curriculum-vitae.git"
+  },
+  "keywords": [
+    "cv"
+  ],
+  "author": "Killian Perea Ruiz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/killianperea/curriculum-vitae/issues"
+  },
+  "homepage": "https://github.com/killianperea/curriculum-vitae#readme",
+  "dependencies": {
+    "puppeteer": "^13.4.0"
+  }
+}

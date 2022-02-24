@@ -31,8 +31,19 @@ export class ExportHtmlToPDF {
             waitUntil: 'domcontentloaded'
         });
 
+        // Add CSS
         await page.addStyleTag({
-            path: 'cv/index.css',
+            path: 'cv/css/index.css',
+            waitUntil: 'domcontentloaded'
+        });
+        
+        await page.addStyleTag({
+            path: 'cv/css/left-side.css',
+            waitUntil: 'domcontentloaded'
+        });
+
+        await page.addStyleTag({
+            path: 'cv/css/right-side.css',
             waitUntil: 'domcontentloaded'
         });
 

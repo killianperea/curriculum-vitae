@@ -1,0 +1,14 @@
+.left-side-column {
+    background: #222;
+    width: 7cm;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.left-side-column .title-box {
+    padding: 1cm;
+    text-align: center;
+    color: white;
+}

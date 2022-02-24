@@ -1,0 +1,25 @@
+@import "left-side.css";
+
+body {
+    margin: 0;
+    padding: 0;
+    font: 12pt "Calibri";
+}
+
+* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+/* FONTS */
+.title {
+    font-size: 36px;
+}
+
+/* MAIN PAGE LAYOUT */
+.page {
+    width: 21cm;
+    height: 29.7cm;
+    margin: 0 auto;
+    background: white;
+}

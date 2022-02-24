@@ -1,9 +1,8 @@
-@import "left-side.css";
-
 body {
     margin: 0;
     padding: 0;
-    font: 12pt "Calibri";
+    font-size: 12pt;
+    font-family: 'Heebo', Courier, monospace;
 }
 
 * {
@@ -11,9 +10,9 @@ body {
     -moz-box-sizing: border-box;
 }
 
-/* FONTS */
+/* FONTS HEADINGS */
 .title {
-    font-size: 36px;
+    font-size: 24pt;
 }
 
 /* MAIN PAGE LAYOUT */

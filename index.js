@@ -27,25 +27,27 @@ export class ExportHtmlToPDF {
 
         const page = await browser.newPage();
 
-        await page.setContent(cv, {
-            waitUntil: 'domcontentloaded'
+        await page.setContent(cv, { waitUntil: 'domcontentloaded' });
+
+        // Add Fonts
+        await page.addStyleTag({
+           url: 'https://fonts.googleapis.com/css?family=Heebo'
         });
 
         // Add CSS
         await page.addStyleTag({
-            path: 'cv/css/index.css',
-            waitUntil: 'domcontentloaded'
+            path: 'cv/css/index.css'
         });
-        
+
         await page.addStyleTag({
             path: 'cv/css/left-side.css',
-            waitUntil: 'domcontentloaded'
         });
 
         await page.addStyleTag({
             path: 'cv/css/right-side.css',
-            waitUntil: 'domcontentloaded'
         });
+
+        await page.evaluateHandle('document.fonts.ready');
 
         // We use pdf function to generate the pdf in the same folder as this file.
         await page.pdf({

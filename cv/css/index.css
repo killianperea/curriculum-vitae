@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    font-size: 12pt;
+    font-size: 8pt;
     font-family: 'Heebo', Courier, monospace;
 }
 
@@ -11,8 +11,41 @@ body {
 }
 
 /* FONTS HEADINGS */
-.title {
+.title-h1 {
     font-size: 24pt;
+    font-weight: bold;
+}
+
+.title-h2 {
+    font-size: 18pt;
+    font-weight: bold;
+}
+
+.title-h3 {
+    font-size: 18pt;
+    font-weight: bold;
+}
+
+.title-h4 {
+    font-size: 16pt;
+    font-weight: bold;
+}
+
+.title-h5 {
+    font-size: 14pt;
+    font-weight: bold;
+}
+
+.subtitle {
+    font-size: 12pt;
+}
+
+.subtext {
+    font-size: 6pt;
+}
+
+.underline {
+    text-decoration: underline;
 }
 
 /* MAIN PAGE LAYOUT */

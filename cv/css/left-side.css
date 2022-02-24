@@ -7,8 +7,46 @@
     left: 0;
 }
 
+/* TITLE */
 .left-side-column .title-box {
-    padding: 1cm;
+    padding: 2cm 1cm 0.5cm 1cm;
     text-align: center;
     color: white;
+}
+
+.left-side-column .title-box div {
+    margin: 0.5cm 0;
+}
+
+/* CONTACT */
+.left-side-column .contact-box {
+    color: white;
+    padding: 0cm 0.5cm;
+}
+
+.left-side-column .contact-box .contact-item {
+    margin-top: 20px;
+}
+
+.left-side-column .contact-box .contact-item .contact-item-text {
+    margin-left: 10px;
+}
+
+/* LANGUAGES */
+.left-side-column .languages-box {
+    color: white;
+    padding: 1cm 0.5cm 0 0.5cm;
+}
+
+.left-side-column .languages-box .languages-item {
+    margin-top: 20px;
+}
+.left-side-column .languages-box .languages-item .language-skill {
+    margin-left: 2.5cm;
+}
+
+/* SKILLS */
+.left-side-column .skills-box {
+    color: white;
+    padding: 1cm 0.5cm 0 0.5cm;
 }

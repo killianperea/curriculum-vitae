@@ -1,7 +1,31 @@
 .right-side-column {
     padding: 1cm;
     width: 14cm;
-    position: absolute;
+    height: 100%;
     top: 0;
     left: 7cm;
+    position: absolute;
+    z-index: 1;
+    background-color: rgb(240, 240, 240);
+}
+
+/* PROFILE */
+.right-side-column .profile-box {
+    color: rgb(15, 15, 15);
+    padding: 0cm 0.5cm;
+}
+
+.right-side-column .profile-box .profile-item {
+    margin-top: 20px;
+    text-align: justify;
+}
+
+/* JOB EXPERIENCE */
+.right-side-column .job-experience-box {
+    color: rgb(15, 15, 15);
+    padding: 0.5cm 0.5cm;
+}
+
+.right-side-column .job-experience-box .job-experience-item {
+    text-align: justify;
 }

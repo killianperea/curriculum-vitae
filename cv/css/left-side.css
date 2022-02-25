@@ -50,3 +50,8 @@
     color: white;
     padding: 1cm 0.5cm 0 0.5cm;
 }
+
+.left-side-column .skills-box .skill-item {
+    text-align: center;
+    margin: 5px 0;
+}

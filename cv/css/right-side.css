@@ -27,5 +27,44 @@
 }
 
 .right-side-column .job-experience-box .job-experience-item {
+    color: rgb(15, 15, 15);
+}
+
+.right-side-column .job-experience-box .job-experience-item .job-box {
+    display: flex;
+    align-items: center;
+    height: 1cm;
+}
+
+.right-side-column .job-experience-box .job-experience-item .job-box .job-logo {
+    display: block;
+    width: 2.5cm;
+    height: 1.5cm;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 10px;
+}
+
+.right-side-column .job-experience-box .job-experience-item .job-box .job-position {
     text-align: justify;
+    margin-right: 5px;
+}
+
+.right-side-column .job-experience-box .job-experience-item .job-box .job-company {
+    text-align: justify;
+    margin-left: 5px;
+}
+
+.right-side-column .job-experience-box .job-experience-item .job-duration {
+    color: rgb(46, 46, 46);
+}
+
+.right-side-column .job-experience-box .job-experience-item .job-description {
+    text-align: justify;
+}
+
+/* EDUCATION */
+.right-side-column .education-box {
+    color: rgb(15, 15, 15);
+    padding: 0.5cm 0.5cm;
 }

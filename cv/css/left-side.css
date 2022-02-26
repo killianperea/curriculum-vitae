@@ -53,5 +53,9 @@
 
 .left-side-column .skills-box .skill-item {
     text-align: center;
-    margin: 5px 0;
+    margin-top: 20px;
+}
+
+.left-side-column .skills-box .skill-text {
+    margin-bottom: 5px;
 }

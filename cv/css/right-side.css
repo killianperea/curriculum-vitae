@@ -30,10 +30,14 @@
     color: rgb(15, 15, 15);
 }
 
+.right-side-column .job-experience-box .job-experience-item.no-last {
+    margin-bottom: 20px;
+}
+
 .right-side-column .job-experience-box .job-experience-item .job-box {
     display: flex;
     align-items: center;
-    height: 1cm;
+    height: 0.5cm;
 }
 
 .right-side-column .job-experience-box .job-experience-item .job-box .job-logo {
@@ -57,6 +61,7 @@
 
 .right-side-column .job-experience-box .job-experience-item .job-duration {
     color: rgb(46, 46, 46);
+    margin-bottom: 10px;
 }
 
 .right-side-column .job-experience-box .job-experience-item .job-description {

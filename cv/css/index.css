@@ -34,6 +34,7 @@ body {
 .title-h5 {
     font-size: 14pt;
     font-weight: bold;
+    padding: 5px 0;
 }
 
 .subtitle {

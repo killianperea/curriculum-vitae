@@ -1,5 +1,5 @@
 .right-side-column {
-    padding: 1cm;
+    padding: 3.5cm 1cm 1cm 1cm;
     width: 14cm;
     height: 100%;
     top: 0;
@@ -46,7 +46,7 @@
     height: 1.5cm;
     background-size: contain;
     background-repeat: no-repeat;
-    margin-left: 10px;
+    margin-left: 5px;
 }
 
 .right-side-column .job-experience-box .job-experience-item .job-box .job-position {
@@ -72,4 +72,41 @@
 .right-side-column .education-box {
     color: rgb(15, 15, 15);
     padding: 0.5cm 0.5cm;
+}
+.right-side-column .education-box .education-item {
+    color: rgb(15, 15, 15);
+}
+
+.right-side-column .education-box .education-item.no-last {
+    margin-bottom: 20px;
+}
+
+.right-side-column .education-box .education-item .course-box {
+    display: flex;
+    align-items: center;
+    height: 0.5cm;
+}
+
+.right-side-column .education-box .education-item .course-box .institution-logo {
+    display: block;
+    width: 1.5cm;
+    height: 0.75cm;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 5px;
+}
+
+.right-side-column .education-box .education-item .course-box .degree {
+    text-align: justify;
+    margin-right: 5px;
+}
+
+.right-side-column .education-box .education-item .course-box .institution {
+    text-align: justify;
+    margin-left: 5px;
+}
+
+.right-side-column .job-experience-box .job-experience-item .course-duration {
+    color: rgb(46, 46, 46);
+    margin-bottom: 10px;
 }

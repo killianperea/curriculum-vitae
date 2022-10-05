@@ -21,7 +21,7 @@
 /* CONTACT */
 .left-side-column .contact-box {
     color: white;
-    padding: 0cm 0.5cm;
+    padding: 0.5cm 0.5cm 0 0.5cm;
 }
 
 .left-side-column .contact-box .contact-item {
@@ -35,7 +35,7 @@
 /* LANGUAGES */
 .left-side-column .languages-box {
     color: white;
-    padding: 1cm 0.5cm 0 0.5cm;
+    padding: 0.5cm 0.5cm 0 0.5cm;
 }
 
 .left-side-column .languages-box .languages-item {
@@ -48,7 +48,7 @@
 /* SKILLS */
 .left-side-column .skills-box {
     color: white;
-    padding: 1cm 0.5cm 0 0.5cm;
+    padding: 0.5cm 0.5cm 0 0.5cm;
 }
 
 .left-side-column .skills-box .skill-item {
